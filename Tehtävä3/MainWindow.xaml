@@ -25,7 +25,7 @@
         </StackPanel>
         <ListBox x:Name="pelaajatListbox" HorizontalAlignment="Left" Height="110" Margin="335,24,0,0" VerticalAlignment="Top" Width="172" SelectionChanged="pelaajatListbox_SelectionChanged"/>
         <StatusBar HorizontalAlignment="Left" Height="31" Margin="0,316,0,0" VerticalAlignment="Top" Width="517">
-            <TextBlock x:Name="statusBarTextBlock" TextWrapping="Wrap" Width="197"/>
+            <TextBlock x:Name="statusBarTextBlock" TextWrapping="Wrap" Width="507"/>
         </StatusBar>
 
     </Grid>

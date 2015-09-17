@@ -70,9 +70,20 @@ namespace Tehtävä3
 
         private void uusiPelaaja_Click(object sender, RoutedEventArgs e)
         {
-            pelaaja = new Pelaaja(etunimiTextBox.Text, sukunimiTextBox.Text, double.Parse(siirtohintaTextBox.Text), seuraComboBox.Text);
-            pelaajat.Add(pelaaja);
-            statusBarTextBlock.Text = "Pelaajat lisätty!";
+            try {
+                pelaaja = new Pelaaja(etunimiTextBox.Text, sukunimiTextBox.Text, double.Parse(siirtohintaTextBox.Text), seuraComboBox.Text);
+                if (!pelaajat.Any(p => p.KokoNimi == pelaaja.KokoNimi))
+                {
+                    pelaajat.Add(pelaaja);
+                    statusBarTextBlock.Text = "Pelaajat lisätty!";
+                } else
+                {
+                    statusBarTextBlock.Text = "Tämän niminen pelaaja on jo listassa!";
+                }
+            } catch(FormatException error)
+            {
+                statusBarTextBlock.Text = error.ToString();
+            }
         }
 
         private void pelaajatListbox_SelectionChanged(object sender, SelectionChangedEventArgs e)
