@@ -26,3 +26,6 @@ Z:\Koulujuttuja\dotNet\IIO13200\Tehtävä3\obj\Debug\MainWindow.baml
 Z:\Koulujuttuja\dotNet\IIO13200\Tehtävä3\obj\Debug\Tehtävä3.g.resources
 Z:\Koulujuttuja\dotNet\IIO13200\Tehtävä3\obj\Debug\Tehtävä3.Properties.Resources.resources
 Z:\Koulujuttuja\dotNet\IIO13200\Tehtävä3\obj\Debug\Tehtävä3.csproj.GenerateResource.Cache
+D:\H4113\IIO13200_NET_15S\Tehtävä3\bin\Debug\Tehtävä3.exe.config
+D:\H4113\IIO13200_NET_15S\Tehtävä3\obj\Debug\Tehtävä3.exe
+D:\H4113\IIO13200_NET_15S\Tehtävä3\obj\Debug\Tehtävä3.pdb

@@ -63,7 +63,7 @@ namespace Tehtävä3
             comboBox.SelectedIndex = 0;
 
         }
-
+        //Tässä on git kommentti
         private void siirtohintaComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var comboBox = sender as ComboBox;
