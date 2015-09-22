@@ -1,0 +1,14 @@
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\bin\Debug\Tehtävä4.exe.config
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\bin\Debug\Tehtävä4.exe
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\bin\Debug\Tehtävä4.pdb
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\Tehtävä4.csprojResolveAssemblyReference.cache
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\MainWindow.g.cs
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\App.g.cs
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\Tehtävä4_MarkupCompile.cache
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\Tehtävä4_MarkupCompile.lref
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\MainWindow.baml
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\Tehtävä4.g.resources
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\Tehtävä4.Properties.Resources.resources
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\Tehtävä4.csproj.GenerateResource.Cache
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\Tehtävä4.exe
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä4\obj\Debug\Tehtävä4.pdb
