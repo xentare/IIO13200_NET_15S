@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 E:\Koulujutut\dotNET\IIO13200_NET_15S\Tehtävä3\obj\Debug\
+=======
+D:\H4113\IIO13200_NET_15S\Tehtävä3\obj\Debug\
+>>>>>>> origin/master
 Tehtävä3
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 E:\Koulujutut\dotNET\IIO13200_NET_15S\Tehtävä3\App.xaml
+=======
+D:\H4113\IIO13200_NET_15S\Tehtävä3\App.xaml
+>>>>>>> origin/master
 11151548125
 
 61551847508

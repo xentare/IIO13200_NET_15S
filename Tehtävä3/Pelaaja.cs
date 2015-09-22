@@ -14,7 +14,11 @@ namespace Tehtävä3
         public string Seura { get; set; }
         public string KokoNimi
         {
+<<<<<<< HEAD
             get { return Etunimi +" "+ Sukunimi + ", " + Seura + " " + Siirtohinta; }
+=======
+            get { return Etunimi +" "+ Sukunimi + ", " + Seura; }
+>>>>>>> origin/master
         }
 
         public Pelaaja(string Etunimi, string Sukunimi, double Siirtohinta, string Seura)

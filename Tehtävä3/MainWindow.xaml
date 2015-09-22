@@ -6,7 +6,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tehtävä3"
         mc:Ignorable="d"
+<<<<<<< HEAD
         Title="MainWindow" Height="371.768" Width="525">
+=======
+        Title="MainWindow" Height="377.768" Width="525">
+>>>>>>> origin/master
     <Grid RenderTransformOrigin="0.518,0.494" Height="347" VerticalAlignment="Top">
         <Label x:Name="label" Content="Etunumi" HorizontalAlignment="Left" Margin="18,24,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1" Content="Sukunimi" HorizontalAlignment="Left" Margin="18,50,0,0" VerticalAlignment="Top"/>
@@ -24,8 +28,13 @@
             <TextBox x:Name="siirtohintaTextBox" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         </StackPanel>
         <ListBox x:Name="pelaajatListbox" HorizontalAlignment="Left" Height="110" Margin="335,24,0,0" VerticalAlignment="Top" Width="172" SelectionChanged="pelaajatListbox_SelectionChanged"/>
+<<<<<<< HEAD
         <StatusBar x:Name="statusBar" HorizontalAlignment="Left" Margin="0,313,0,10" Width="517">
             <TextBlock x:Name="statusBarTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="245"/>
+=======
+        <StatusBar HorizontalAlignment="Left" Height="31" Margin="0,316,0,0" VerticalAlignment="Top" Width="517">
+            <TextBlock x:Name="statusBarTextBlock" TextWrapping="Wrap" Width="507"/>
+>>>>>>> origin/master
         </StatusBar>
 
     </Grid>
