@@ -63,10 +63,6 @@ namespace Tehtävä3
             comboBox.SelectedIndex = 0;
 
         }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
         private void siirtohintaComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var comboBox = sender as ComboBox;
@@ -116,12 +112,6 @@ namespace Tehtävä3
             string sPath = "E:/pelaajat.txt";
             StreamWriter saveFile = new StreamWriter(sPath);
             foreach(var item in pelaajatListbox.Items)
-            {
-                saveFile.WriteLine(item.ToString());
-            }
-            saveFile.Close();
-
-            statusBarTextBlock.Text = "Pelaajat kirjoitettu tiedostoon!";
 =======
             //string sPath = "C:/pelaajat.txt";
             //StreamWriter saveFile = new StreamWriter(sPath);
@@ -136,6 +126,7 @@ namespace Tehtävä3
             saveFileDialog.Filter = "Dat files (.dat)|*.dat";
             saveFileDialog.FileName = "Pelaajat.dat";
             if (saveFileDialog.ShowDialog() == true)
+>>>>>>> origin/master
             {
                 string path = saveFileDialog.FileName;
                 //Stream fileStream = saveFileDialog.OpenFile();
@@ -148,6 +139,9 @@ namespace Tehtävä3
                 writer.Close();
             }
 
+<<<<<<< HEAD
+            statusBarTextBlock.Text = "Pelaajat kirjoitettu tiedostoon!";
+=======
 
             statusBarTextBlock.Text = "Pelaajat tallennettu tiedostoon!"+" "+saveFileDialog.FileName;
 >>>>>>> origin/master

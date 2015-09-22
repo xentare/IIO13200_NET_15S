@@ -6,11 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tehtävä3"
         mc:Ignorable="d"
-<<<<<<< HEAD
         Title="MainWindow" Height="371.768" Width="525">
-=======
-        Title="MainWindow" Height="377.768" Width="525">
->>>>>>> origin/master
     <Grid RenderTransformOrigin="0.518,0.494" Height="347" VerticalAlignment="Top">
         <Label x:Name="label" Content="Etunumi" HorizontalAlignment="Left" Margin="18,24,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1" Content="Sukunimi" HorizontalAlignment="Left" Margin="18,50,0,0" VerticalAlignment="Top"/>

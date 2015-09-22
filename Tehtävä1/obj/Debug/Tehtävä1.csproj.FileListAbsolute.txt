@@ -26,3 +26,6 @@ Z:\Koulujuttuja\dotNet\IIO13200\Tehtävä1\obj\Debug\MainWindow.baml
 Z:\Koulujuttuja\dotNet\IIO13200\Tehtävä1\obj\Debug\Ikkunat.g.resources
 Z:\Koulujuttuja\dotNet\IIO13200\Tehtävä1\obj\Debug\Tehtävä1.Properties.Resources.resources
 Z:\Koulujuttuja\dotNet\IIO13200\Tehtävä1\obj\Debug\Tehtävä1.csproj.GenerateResource.Cache
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä1\bin\Debug\Ikkunat.exe.config
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä1\obj\Debug\Ikkunat.exe
+C:\Users\Juha\Documents\GitHub\IIO13200_NET_15S\Tehtävä1\obj\Debug\Ikkunat.pdb
