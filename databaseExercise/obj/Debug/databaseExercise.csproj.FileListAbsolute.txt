@@ -1,0 +1,6 @@
+D:\H4113\IIO13200_NET_15S\databaseExercise\bin\Debug\databaseExercise.exe.config
+D:\H4113\IIO13200_NET_15S\databaseExercise\bin\Debug\databaseExercise.exe
+D:\H4113\IIO13200_NET_15S\databaseExercise\bin\Debug\databaseExercise.pdb
+D:\H4113\IIO13200_NET_15S\databaseExercise\obj\Debug\databaseExercise.csprojResolveAssemblyReference.cache
+D:\H4113\IIO13200_NET_15S\databaseExercise\obj\Debug\databaseExercise.exe
+D:\H4113\IIO13200_NET_15S\databaseExercise\obj\Debug\databaseExercise.pdb

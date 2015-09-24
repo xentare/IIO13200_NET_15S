@@ -28,7 +28,19 @@ namespace Tehtävä4
             InitializeComponent();
             string path = ConfigurationManager.AppSettings.Get("viiniData");
             List<string> maatList = new List<string>();
-            XDocument doc = XDocument.Load(path);
+
+            XDocument doc = null;
+            try
+            {
+                doc = XDocument.Load(path);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e);
+                Console.WriteLine("");
+                MessageBox.Show("Can't find XML filepath, terminating...");
+                //this.Close();
+            }
     
             //Haetaan maat XML-tagien sisästä
             var maat = doc.Descendants("maa");
@@ -42,6 +54,8 @@ namespace Tehtävä4
             }
             maatComboBox.ItemsSource = maatList;
             maatComboBox.SelectedIndex = 0;
+
+            //Asetetaan alkuarvot viinilistalle
             XmlDataProvider dp = viinitListView.DataContext as XmlDataProvider;
             dp.Source = new System.Uri(path);
         }

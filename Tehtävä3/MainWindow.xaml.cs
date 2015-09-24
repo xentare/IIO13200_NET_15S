@@ -70,11 +70,9 @@ namespace Tehtävä3
 
         private void uusiPelaaja_Click(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
             pelaaja = new Pelaaja(etunimiTextBox.Text, sukunimiTextBox.Text, double.Parse(siirtohintaTextBox.Text), seuraComboBox.Text);
             pelaajat.Add(pelaaja);
             statusBarTextBlock.Text = "Pelaaja lisätty!";
-=======
             try {
                 pelaaja = new Pelaaja(etunimiTextBox.Text, sukunimiTextBox.Text, double.Parse(siirtohintaTextBox.Text), seuraComboBox.Text);
                 if (!pelaajat.Any(p => p.KokoNimi == pelaaja.KokoNimi))
@@ -89,7 +87,6 @@ namespace Tehtävä3
             {
                 statusBarTextBlock.Text = error.ToString();
             }
->>>>>>> origin/master
         }
 
         private void pelaajatListbox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -108,25 +105,22 @@ namespace Tehtävä3
 
         private void kirjoitaPelaajaButton_Click(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
             string sPath = "E:/pelaajat.txt";
             StreamWriter saveFile = new StreamWriter(sPath);
-            foreach(var item in pelaajatListbox.Items)
-=======
-            //string sPath = "C:/pelaajat.txt";
-            //StreamWriter saveFile = new StreamWriter(sPath);
-            //foreach(var item in pelaajatListbox.Items)
-            //{
-            //    saveFile.WriteLine(item.ToString());
-            //}
-            //saveFile.Close();
+            foreach (var item in pelaajatListbox.Items)
+                //string sPath = "C:/pelaajat.txt";
+                //StreamWriter saveFile = new StreamWriter(sPath);
+                //foreach(var item in pelaajatListbox.Items)
+                //{
+                //    saveFile.WriteLine(item.ToString());
+                //}
+                //saveFile.Close();
 
-            SaveFileDialog saveFileDialog = new SaveFileDialog();
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.DefaultExt = ".dat";
             saveFileDialog.Filter = "Dat files (.dat)|*.dat";
             saveFileDialog.FileName = "Pelaajat.dat";
             if (saveFileDialog.ShowDialog() == true)
->>>>>>> origin/master
             {
                 string path = saveFileDialog.FileName;
                 //Stream fileStream = saveFileDialog.OpenFile();
@@ -139,12 +133,9 @@ namespace Tehtävä3
                 writer.Close();
             }
 
-<<<<<<< HEAD
             statusBarTextBlock.Text = "Pelaajat kirjoitettu tiedostoon!";
-=======
 
             statusBarTextBlock.Text = "Pelaajat tallennettu tiedostoon!"+" "+saveFileDialog.FileName;
->>>>>>> origin/master
         }
 
         private void talletaPelaajaButton_Click(object sender, RoutedEventArgs e)
@@ -157,22 +148,16 @@ namespace Tehtävä3
             pelaajatListbox.DisplayMemberPath = "";
             pelaajatListbox.DisplayMemberPath = "KokoNimi";
 
-<<<<<<< HEAD
             statusBarTextBlock.Text = "Pelaaja talletettu!";
-=======
             statusBarTextBlock.Text = "Pelaajat talletettu!";
->>>>>>> origin/master
         }
 
         private void poistaPelaajaButton_Click(object sender, RoutedEventArgs e)
         {
             Pelaaja temp = (Pelaaja)pelaajatListbox.SelectedItem;
             pelaajat.Remove(temp);
-<<<<<<< HEAD
             statusBarTextBlock.Text = "Pelaaja poistettu!";
-=======
             statusBarTextBlock.Text = "Pelaajat poistettu!";
->>>>>>> origin/master
         }
 
         private void lopetaButton_Click(object sender, RoutedEventArgs e)

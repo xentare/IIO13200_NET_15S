@@ -1,0 +1,14 @@
+D:\H4113\IIO13200_NET_15S\Tehtävä5\bin\Debug\Tehtävä5.exe.config
+D:\H4113\IIO13200_NET_15S\Tehtävä5\bin\Debug\Tehtävä5.exe
+D:\H4113\IIO13200_NET_15S\Tehtävä5\bin\Debug\Tehtävä5.pdb
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5.csprojResolveAssemblyReference.cache
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\MainWindow.g.cs
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\App.g.cs
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5_MarkupCompile.cache
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5_MarkupCompile.lref
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\MainWindow.baml
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5.g.resources
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5.Properties.Resources.resources
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5.csproj.GenerateResource.Cache
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5.exe
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5.pdb
