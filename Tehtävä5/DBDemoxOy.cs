@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JAMK.IT
+namespace Tehtävä5
 {
     class DBDemoxOy
     {
@@ -17,7 +17,7 @@ namespace JAMK.IT
             {
                 //haetaan data DataTablen avulla
                 //DataTable dt = GetDataSimple();
-                DataTable dt = GetDataReal();
+                DataTable dt = GetDataReal("");
 
                 string rivi = "";
                 //loopitetaan DataTablen rivit läpi
@@ -48,14 +48,18 @@ namespace JAMK.IT
             return dt;
         }
 
-        public static DataTable GetDataReal()
+        public static DataTable GetDataReal(string asioid)
         {
             //DBkerros, haetaan DemoxOy-tietokannasta taulun länsäolot tietueet
             try
             {
                 string sql;
-                sql = "SELECT asioid, lastname, firstname, date FROM lasnaolot";// WHERE asioid='H4113'";
-                string connStr = @"Data source=eight.labranet.jamk.fi;initial catalog=DemoxOy;user=koodari;password=koodari13";
+                sql = "SELECT asioid, lastname, firstname, date FROM lasnaolot";// WHERE asioid=''";
+                if(asioid != "")
+                {
+                    sql = "SELECT asioid, lastname, firstname, date FROM lasnaolot WHERE asioid='" + asioid + "'";
+                }
+                string connStr = Tehtävä5.Properties.Settings.Default.connectionStringDbEight;
                 using (SqlConnection conn = new SqlConnection(connStr))
                 {
                     //avataan yhteys

@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="btnGetDataTable" Content="Hae läsnäolot (DataTable)" Margin="10,12,10,276" Click="btnGetDataTable_Click"/>
-        <DataGrid x:Name="dgData" Margin="10,49,10,10" ItemsSource="{Binding}"/>
+        <Button x:Name="btnGetDataTable" Content="Hae läsnäolot (DataTable)" Margin="10,38,10,250" Click="btnGetDataTable_Click"/>
+        <DataGrid x:Name="dgData" Margin="10,152,10,10" ItemsSource="{Binding}"/>
+        <TextBox x:Name="asioidTextBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254"/>
     </Grid>
 </Window>
