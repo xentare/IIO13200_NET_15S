@@ -5,10 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tehtävä5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Button x:Name="btnGetDataTable" Content="Hae läsnäolot (DataTable)" Margin="10,38,10,250" Click="btnGetDataTable_Click"/>
-        <DataGrid x:Name="dgData" Margin="10,152,10,10" ItemsSource="{Binding}"/>
-        <TextBox x:Name="asioidTextBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254"/>
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:opiskelijat x:Key="opiskelijat"/>
+        <CollectionViewSource x:Key="ilmoittautumisetViewSource" Source="{Binding ilmoittautumiset, Source={StaticResource opiskelijat}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource ilmoittautumisetViewSource}">
+        <Button x:Name="btnGetDataTable" Content="Hae läsnäolot (DataTable)" Margin="10,10,10,278" Click="btnGetDataTable_Click"/>
+        <DataGrid x:Name="dgData" Margin="10,152,253,10" ItemsSource="{Binding}"/>
+        <TextBox x:Name="asioidTextBox" HorizontalAlignment="Left" Height="23" Margin="10,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254"/>
+        <Button x:Name="haeLäsnäoloniButton" Content="Hae läsnäoloni (DataView)" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="497" Height="32" Click="haeLäsnäoloniButton_Click"/>
+        <Button x:Name="btnGetTypedDataSetData" Content="Hae läsnäolot (Typed DataSet)" HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top" Width="497" Height="35" Click="button_Click"/>
+        <DataGrid x:Name="ilmoittautumisetDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="269,152,10,10" RowDetailsVisibilityMode="VisibleWhenSelected"/>
     </Grid>
 </Window>

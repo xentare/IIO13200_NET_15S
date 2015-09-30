@@ -70,6 +70,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="opiskelijat.cs">
+      <DependentUpon>opiskelijat.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="opiskelijat.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>opiskelijat.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -87,6 +95,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="opiskelijat.xsc">
+      <DependentUpon>opiskelijat.xsd</DependentUpon>
+    </None>
+    <None Include="opiskelijat.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>opiskelijat.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="opiskelijat.xss">
+      <DependentUpon>opiskelijat.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

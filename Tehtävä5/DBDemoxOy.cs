@@ -17,7 +17,7 @@ namespace Tehtävä5
             {
                 //haetaan data DataTablen avulla
                 //DataTable dt = GetDataSimple();
-                DataTable dt = GetDataReal("");
+                DataTable dt = GetDataReal();
 
                 string rivi = "";
                 //loopitetaan DataTablen rivit läpi
@@ -48,17 +48,13 @@ namespace Tehtävä5
             return dt;
         }
 
-        public static DataTable GetDataReal(string asioid)
+        public static DataTable GetDataReal()
         {
             //DBkerros, haetaan DemoxOy-tietokannasta taulun länsäolot tietueet
             try
             {
                 string sql;
-                sql = "SELECT asioid, lastname, firstname, date FROM lasnaolot";// WHERE asioid=''";
-                if(asioid != "")
-                {
-                    sql = "SELECT asioid, lastname, firstname, date FROM lasnaolot WHERE asioid='" + asioid + "'";
-                }
+                sql = "SELECT asioid, lastname, firstname, date FROM lasnaolot";// WHERE asioid=''"
                 string connStr = Tehtävä5.Properties.Settings.Default.connectionStringDbEight;
                 using (SqlConnection conn = new SqlConnection(connStr))
                 {
@@ -80,5 +76,18 @@ namespace Tehtävä5
                 throw ex;
             }
         }
+        public static DataView GetDataView(String asioid)
+        {
+            DataTable dt = GetDataReal();
+            DataView dv = new DataView(dt,"","lastname,firstname",DataViewRowState.CurrentRows);
+
+           // dv.FindRows(new object[] { "asioid", asioid });
+
+            dv.RowFilter = "asioid = '"+asioid+"'";
+
+
+            return dv;
+        }
+
     }
 }

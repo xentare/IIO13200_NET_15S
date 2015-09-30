@@ -1,0 +1,13 @@
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\bin\Release\ADONET.exe.config
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\obj\Release\MainWindow.baml
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\obj\Release\MainWindow.g.cs
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\obj\Release\App.g.cs
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\obj\Release\ADONET_MarkupCompile.cache
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\obj\Release\ADONET.g.resources
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\obj\Release\JAMK.ICT.Properties.Resources.resources
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\obj\Release\H10ADOBlanco.csproj.GenerateResource.Cache
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\bin\Release\ADONET.exe
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\bin\Release\ADONET.pdb
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\obj\Release\ADONET.exe
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\obj\Release\ADONET.pdb
+C:\Projects\NET14K\Koodit14K\H10ADOBlanco\obj\Release\H10ADOBlanco.csprojResolveAssemblyReference.cache
