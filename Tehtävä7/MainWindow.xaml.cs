@@ -29,30 +29,31 @@ namespace Tehtävä7
             InitComboBox();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private async void button_Click(object sender, RoutedEventArgs e)
         {
             Station station = (Station)stationComboBox.SelectedItem;
-            string query = "http://rata.digitraffic.fi/api/v1/live-trains?station=HKI";//" + station.stationCode;
-            string response = getDataFromApi(query);
+            string query = "http://rata.digitraffic.fi/api/v1/live-trains?station=" + station.stationShortCode;
+            string response = await getDataFromApi(query);
             List<Train> trains = JsonConvert.DeserializeObject<List<Train>>(response);
-
             trainDataGrid.DataContext = trains;
         }
 
-        public void InitComboBox()
+        public async void InitComboBox()
         {
-            string response = getDataFromApi("http://rata.digitraffic.fi/api/v1/metadata/station");
+            string response = await getDataFromApi("http://rata.digitraffic.fi/api/v1/metadata/station");
             List<Station> stations = JsonConvert.DeserializeObject<List<Station>>(response);
             stationComboBox.DisplayMemberPath = "stationName";
             stationComboBox.ItemsSource = stations;
         }
-        public string getDataFromApi(string url)
+        public async Task<string> getDataFromApi(string url)
         {
             WebClient client = new WebClient();
             try
             {
                 Uri uri = new Uri(url);
-                string response = client.DownloadString(uri);
+                statusTextBlock.Text = "Getting data from the server...";
+                string response = await client.DownloadStringTaskAsync(uri);
+                statusTextBlock.Text = "Done";
                 return response;
             }
             catch (Exception err)

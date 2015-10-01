@@ -9,7 +9,12 @@
     <Grid>
         <ComboBox x:Name="stationComboBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnGetTrains" Content="Hae lähtevät junat" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Width="139" Click="button_Click"/>
-        <DataGrid  AutoGenerateColumns="true" ItemsSource="{Binding}" x:Name="trainDataGrid" HorizontalAlignment="Left" Height="265" Margin="10,45,0,0" VerticalAlignment="Top" Width="497"/>
+        <DataGrid  AutoGenerateColumns="true" ItemsSource="{Binding}" x:Name="trainDataGrid" HorizontalAlignment="Left" Height="244" Margin="10,45,0,0" VerticalAlignment="Top" Width="487"/>
+        <StatusBar x:Name="statusBar" HorizontalAlignment="Left" Height="21" Margin="0,289,0,0" VerticalAlignment="Top" Width="517">
+            <StatusBarItem x:Name="statusBarItem">
+                <TextBlock x:Name="statusTextBlock" TextWrapping="Wrap" Width="258"/>
+            </StatusBarItem>
+        </StatusBar>
 
     </Grid>
 </Window>

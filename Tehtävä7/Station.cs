@@ -9,6 +9,6 @@ namespace Tehtävä7
     public class Station
     {
         public string stationName { get; set; }
-        public string stationCode { get; set; }
+        public string stationShortCode { get; set; }
     }
 }

@@ -14,3 +14,6 @@ D:\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.Properties.Resources.resources
 D:\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.csproj.GenerateResource.Cache
 D:\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.exe
 D:\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.pdb
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\bin\Debug\JSONdemo.exe.config
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.exe
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.pdb

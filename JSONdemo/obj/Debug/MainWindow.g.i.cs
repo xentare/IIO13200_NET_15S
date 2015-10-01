@@ -108,12 +108,6 @@ namespace JSONdemo {
             return;
             case 3:
             this.dataGrid = ((System.Windows.Controls.DataGrid)(target));
-            
-            #line 12 "..\..\MainWindow.xaml"
-            this.dataGrid.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.dataGrid_SelectionChanged);
-            
-            #line default
-            #line hidden
             return;
             }
             this._contentLoaded = true;
