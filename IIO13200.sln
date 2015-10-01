@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "databaseExercise", "databas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtävä6", "Tehtävä6\Tehtävä6.csproj", "{078B472F-E0BE-4705-A004-3F2A11A96896}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONdemo", "JSONdemo\JSONdemo.csproj", "{D88CB4E1-C33A-4125-8517-C33641A09FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtävä7", "Tehtävä7\Tehtävä7.csproj", "{2BC091B2-E080-435B-821A-44EDDE7638F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{078B472F-E0BE-4705-A004-3F2A11A96896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{078B472F-E0BE-4705-A004-3F2A11A96896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{078B472F-E0BE-4705-A004-3F2A11A96896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88CB4E1-C33A-4125-8517-C33641A09FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88CB4E1-C33A-4125-8517-C33641A09FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88CB4E1-C33A-4125-8517-C33641A09FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88CB4E1-C33A-4125-8517-C33641A09FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC091B2-E080-435B-821A-44EDDE7638F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC091B2-E080-435B-821A-44EDDE7638F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC091B2-E080-435B-821A-44EDDE7638F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC091B2-E080-435B-821A-44EDDE7638F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

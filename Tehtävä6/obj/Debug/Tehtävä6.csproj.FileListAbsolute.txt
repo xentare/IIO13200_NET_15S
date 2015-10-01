@@ -16,3 +16,4 @@ E:\Koulujutut\dotNET\IIO13200-ADONET-DEMO-master\obj\Debug\Tehtävä6.csproj.Gen
 E:\Koulujutut\dotNET\IIO13200_NET_15S\Tehtävä6\bin\Debug\ADONET.exe.config
 E:\Koulujutut\dotNET\IIO13200_NET_15S\Tehtävä6\obj\Debug\ADONET.exe
 E:\Koulujutut\dotNET\IIO13200_NET_15S\Tehtävä6\obj\Debug\ADONET.pdb
+D:\IIO13200_NET_15S\Tehtävä6\bin\Debug\ADONET.exe.config
