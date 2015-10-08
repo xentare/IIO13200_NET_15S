@@ -1,1 +1,17 @@
 Z:\Koulujuttuja\dotNet\IIO13200\Tehtävä2\bin\Debug\Tehtävä2.exe.config
+D:\H4113\IIO13200_NET_15S\Tehtävä2\bin\Debug\Tehtävä2.exe.config
+D:\H4113\IIO13200_NET_15S\Tehtävä2\bin\Debug\Tehtävä2.exe
+D:\H4113\IIO13200_NET_15S\Tehtävä2\bin\Debug\Tehtävä2.pdb
+D:\H4113\IIO13200_NET_15S\Tehtävä2\bin\Debug\Newtonsoft.Json.dll
+D:\H4113\IIO13200_NET_15S\Tehtävä2\bin\Debug\Newtonsoft.Json.xml
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\Tehtävä2.csprojResolveAssemblyReference.cache
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\MainWindow.g.cs
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\App.g.cs
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\Tehtävä2_MarkupCompile.cache
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\Tehtävä2_MarkupCompile.lref
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\MainWindow.baml
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\Tehtävä2.g.resources
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\Tehtävä2.Properties.Resources.resources
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\Tehtävä2.csproj.GenerateResource.Cache
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\Tehtävä2.exe
+D:\H4113\IIO13200_NET_15S\Tehtävä2\obj\Debug\Tehtävä2.pdb

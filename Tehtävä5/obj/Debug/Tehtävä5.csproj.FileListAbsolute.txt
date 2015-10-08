@@ -41,3 +41,6 @@ E:\Koulujutut\dotNET\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5.g.resource
 E:\Koulujutut\dotNET\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5.Properties.Resources.resources
 E:\Koulujutut\dotNET\IIO13200_NET_15S\Tehtävä5\obj\Debug\Tehtävä5.csproj.GenerateResource.Cache
 E:\Koulujutut\dotNET\IIO13200_NET_15S\Tehtävä5\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\H4113\IIO13200_NET_15S\Tehtävä5\bin\Debug\Newtonsoft.Json.dll
+D:\H4113\IIO13200_NET_15S\Tehtävä5\bin\Debug\Newtonsoft.Json.xml
+D:\H4113\IIO13200_NET_15S\Tehtävä5\obj\Debug\GeneratedInternalTypeHelper.g.cs
