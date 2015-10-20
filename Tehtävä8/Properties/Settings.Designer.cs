@@ -25,7 +25,7 @@ namespace Tehtävä8.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\\\ghost.labranet.jamk.fi\\temp\\Palautteet.xml")]
+        [global::System.Configuration.DefaultSettingValueAttribute("//ghost/temp/Balautteet.xml")]
         public string dataSource {
             get {
                 return ((string)(this["dataSource"]));

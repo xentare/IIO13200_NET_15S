@@ -7,3 +7,11 @@ D:\H4113\IIO13200_NET_15S\UnitTestWinLotto\bin\Debug\Microsoft.VisualStudio.Qual
 D:\H4113\IIO13200_NET_15S\UnitTestWinLotto\obj\Debug\UnitTestForWinLotto.csprojResolveAssemblyReference.cache
 D:\H4113\IIO13200_NET_15S\UnitTestWinLotto\obj\Debug\UnitTestWinLotto.dll
 D:\H4113\IIO13200_NET_15S\UnitTestWinLotto\obj\Debug\UnitTestWinLotto.pdb
+E:\Koulujutut\dotNET\IIO13200_NET_15S\UnitTestWinLotto\bin\Debug\UnitTestWinLotto.dll
+E:\Koulujutut\dotNET\IIO13200_NET_15S\UnitTestWinLotto\bin\Debug\UnitTestWinLotto.pdb
+E:\Koulujutut\dotNET\IIO13200_NET_15S\UnitTestWinLotto\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Koulujutut\dotNET\IIO13200_NET_15S\UnitTestWinLotto\bin\Debug\WinLotto.exe
+E:\Koulujutut\dotNET\IIO13200_NET_15S\UnitTestWinLotto\bin\Debug\WinLotto.pdb
+E:\Koulujutut\dotNET\IIO13200_NET_15S\UnitTestWinLotto\obj\Debug\UnitTestForWinLotto.csprojResolveAssemblyReference.cache
+E:\Koulujutut\dotNET\IIO13200_NET_15S\UnitTestWinLotto\obj\Debug\UnitTestWinLotto.dll
+E:\Koulujutut\dotNET\IIO13200_NET_15S\UnitTestWinLotto\obj\Debug\UnitTestWinLotto.pdb

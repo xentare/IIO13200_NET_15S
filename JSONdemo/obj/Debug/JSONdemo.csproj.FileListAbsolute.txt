@@ -33,3 +33,16 @@ D:\H4113\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.Properties.Resources.resou
 D:\H4113\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.csproj.GenerateResource.Cache
 D:\H4113\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.exe
 D:\H4113\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.pdb
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\bin\Debug\JSONdemo.exe
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\bin\Debug\JSONdemo.pdb
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\bin\Debug\Newtonsoft.Json.dll
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\bin\Debug\Newtonsoft.Json.xml
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.csprojResolveAssemblyReference.cache
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\MainWindow.g.cs
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\App.g.cs
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo_MarkupCompile.cache
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo_MarkupCompile.lref
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\MainWindow.baml
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.g.resources
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.Properties.Resources.resources
+E:\Koulujutut\dotNET\IIO13200_NET_15S\JSONdemo\obj\Debug\JSONdemo.csproj.GenerateResource.Cache

@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="dataSource" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\\ghost.labranet.jamk.fi\temp\Palautteet.xml</Value>
+      <Value Profile="(Default)">//ghost/temp/Balautteet.xml</Value>
     </Setting>
   </Settings>
 </SettingsFile>
